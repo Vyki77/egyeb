@@ -1,0 +1,82 @@
+body {
+  padding: 0 10px;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header,
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+header img {
+  height: 100px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav,
+footer {
+  text-align: center;
+  background-color: lightgray;
+  padding: 20px;
+}
+
+nav a {
+  margin: 5px;
+}
+
+main div {
+  text-align: center;
+}
+
+main img {
+  width: 600px;
+  max-width: 100%;
+  margin: auto;
+}
+
+main span {
+  font-size: 12px;
+}
+
+#search {
+  text-align: center;
+}
+
+input {
+  cursor: pointer;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer #up {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+@media screen and (min-width: 600px) {
+  footer #up {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  header {
+    display: block;
+    text-align: center;
+  }
+}
